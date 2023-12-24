@@ -1,27 +1,42 @@
 {
-  "name": "shadhin-jurnny",
+  "name": "shadhin-jurney",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "classnames": "^2.3.2",
+    "dayjs": "^1.11.10",
+    "framer-motion": "^10.16.16",
+    "lodash": "^4.17.21",
+    "next": "14.0.4",
+    "pg": "^8.11.3",
     "react": "^18",
+    "react-custom-scrollbars-2": "^4.5.0",
     "react-dom": "^18",
-    "next": "14.0.4"
+    "react-icons": "^4.12.0",
+    "react-modal": "^3.16.1",
+    "react-popper": "^2.3.0",
+    "react-portal": "^4.2.2",
+    "react-select": "^5.8.0",
+    "twin.macro": "^3.4.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/lodash": "^4.14.202",
     "@types/node": "^20",
+    "@types/pg": "^8.10.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "typescript": "^5"
   }
 }
