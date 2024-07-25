@@ -1,9 +1,11 @@
 import React from 'react'
+import BlogBuilder from './components/blogBuilder'
 
 function CreateUser() {
     return (
         <div>
-            username
+            <h3>Create a new Blog</h3>
+            <BlogBuilder />
         </div>
     )
 }

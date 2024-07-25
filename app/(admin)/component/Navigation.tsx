@@ -1,9 +1,13 @@
+import Switcher from '@/components/ui/Switcher'
 import React from 'react'
+import { RiMoonClearLine, RiSunLine } from "react-icons/ri"
+import Sidebar from './Sidebar'
+import ThemeToggol from './ThemeToggol'
 
 function Navigation() {
     return (
         <div className='lg:ml-48'>
-            <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap z-50 w-full py-4 bg-white lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none dark:bg-slate-900 dark:lg:bg-transparent">
+            <header className="relative flex flex-wrap lg:justify-start lg:flex-nowrap z-10 w-full py-4 bg-white lg:bg-transparent backdrop-blur-md lg:backdrop-blur-none dark:bg-slate-900 dark:lg:bg-transparent">
                 <nav className="max-w-[85rem] flex flex-wrap basis-full items-center w-full mx-auto px-4 sm:px-6 lg:px-8" aria-label="Global">
                     { /* Logo Wrapper */}
                     <div className="flex items-center gap-x-2 md:gap-x-3">
@@ -116,6 +120,10 @@ function Navigation() {
                         </div>
                     </div>
                     { /* End Collapse */}
+                    {/* <div>
+                        <ThemeToggol />
+                    </div> */}
+
                 </nav>
             </header>
         </div >
